@@ -1,0 +1,22 @@
+{
+  "name": "desktopdeploy",
+  "version": "1.0.0",
+  "description": "A simple tool to download multiple different executables from a single repository.",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hunter Hines",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}

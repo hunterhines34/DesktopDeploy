@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>Desktop Deploy</title>
+    <meta http-equiv="x-ua-compatible" content="ie-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid"> <!--Start container-fluid-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary"> <!--Start navbar-->
+        <a class="navbar-brand" href="index.html"><span class="fa fa-gears"> Desktop Deploy</span></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Options</a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="software.html"><span class="fa fa-list"> Software list</span></a>
+                  <a class="dropdown-item" href="scripts.html"><span class="fa fa-file-code-o"> Scripts list</span></a>
+                  <a class="dropdown-item" href="diagnostics.html"><span class="fa fa-desktop"> PC Diagnostics</span></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Exit</a>
+            </li>
+          </ul>
+        </div>
+      </nav> <!--End navbar-->
+      
+      <div class="jumbotron"> <!--Start jumbotron-->
+          <h1 class="display-3">Desktop Deploy</h1>
+          <p class="lead">A simple tool designed to download software and configure new PCs from a single controlled repository.</p>
+          <hr />
+          <p>Desktop Deploy (DD) is an all-in-one tool designed for desktop technicians to download software, obtain computer diagnostic data and also run common scripts from one single location.</p>
+          <p><u>Common DD use cases</u></p>
+          <p>
+              <ul>
+                  <li>
+                    Download bundles of software from a single repository
+                  </li>
+                  <li>
+                    Download bundles of scripts from a single location
+                  </li>
+                  <li>
+                    Access commonly used PC diagnostics
+                  </li>
+              </ul>
+          </p>
+        </div>
+      </div> <!--End jumbotron-->
+      <div class="container-fluid"> <!--Start new container-->
+            <div class="row">
+              <div class="col-sm-4">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="./assets/scripts.jpg" alt="software-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Software</h5>
+                            <p class="card-text">End-users can quickly download all of their necessary software from one single location.</p>
+                            <a href="software.html" class="btn btn-primary">Software list</a>
+                        </div>
+                    </div>
+              </div>
+              <div class="col-sm-4">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" width="100" src="./assets/scripts.jpg" alt="scripts-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Scripts</h5>
+                            <p class="card-text">DD can access the most commonly used scripts to configure their PCs depending on use-case.</p>
+                            <a href="scripts.html" class="btn btn-primary">Scripts list</a>
+                        </div>
+                    </div>
+              </div>
+              <div class="col-sm-4">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="./assets/scripts.jpg" alt="diagnostics-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Diagnostics</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="diagnostics.html" class="btn btn-primary">Diagnostics list</a>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </div> <!--End container-fluid (cards)-->
+
+        <footer class="fixed-bottom page-footer font-small special-color-dark pt-4"> <!--Begin Footer-->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="https://duncanregional.com"> Duncan Regional Hospital</a>
+            </div>
+        </footer> <!--End Footer-->
+
+    </div> <!--End container-fluid (main)-->
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules//popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
